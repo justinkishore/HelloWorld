@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HelloWorldHlpr;
 
 namespace HelloWorld
 {
@@ -10,7 +11,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World Dev Env!!");
+            Console.WriteLine((new Greetings()).msgInEnglish());
             Console.Read();
         }
     }

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GreetingMsg</id>
+    <version>2.0.0</version>
+    <authors>Kishore</authors>
+    <owners>Kishore</owners>   
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This Package returns greeting message in multiple languages.</description>
+    <releaseNotes>Added method to return msg in English.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Greeting Message</tags>   
+  </metadata>
+  <files>
+    <file src="bin\debug\HelloWorldHlpr.dll" target="lib\HelloWorldHlpr.dll" />
+  </files>
+</package>
